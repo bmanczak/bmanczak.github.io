@@ -6,6 +6,12 @@ theme: "PaperMod"
 # Publish into docs/ for GitHub Pages
 publishDir: "docs"
 
+# Enable raw HTML in markdown
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 # (optional) enable menu
 menu:
   main:
