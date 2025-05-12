@@ -1,0 +1,15 @@
+baseURL: "https://bmanczak.github.io/"
+languageCode: "en-us"
+title: "Blazej Manczak"
+theme: "PaperMod"
+
+# Publish into docs/ for GitHub Pages
+publishDir: "docs"
+
+# (optional) enable menu
+menu:
+  main:
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 10
