@@ -1,23 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Blazej Manczak</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Blazej Manczak</description>
-    <generator>Hugo -- 0.147.2</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 12 May 2025 15:23:52 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 12 May 2025 15:23:52 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;hr&gt;
-&lt;p&gt;Hello! I’m Blazej Manczak, and this is my personal site…&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-[oai_citation:8‡keanteng.github.io](https://keanteng.github.io/home/docs/2023_04_09-creating-a-website-with-hugo--papermode/?utm_source=chatgpt.com).&#34; data-lang=&#34;[oai_citation:8‡keanteng.github.io](https://keanteng.github.io/home/docs/2023_04_09-creating-a-website-with-hugo--papermode/?utm_source=chatgpt.com).&#34;&gt;
----
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blazej Manczak</title><link>https://bmanczak.github.io/</link><description>Recent content on Blazej Manczak</description><generator>Hugo -- 0.147.3</generator><language>en-us</language><lastBuildDate>Mon, 12 May 2025 15:23:52 +0200</lastBuildDate><atom:link href="https://bmanczak.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://bmanczak.github.io/about/</link><pubDate>Mon, 12 May 2025 15:23:52 +0200</pubDate><guid>https://bmanczak.github.io/about/</guid><description>&lt;img alt="Blazej Manczak" src="https://bmanczak.github.io/images/profile-photo.jpeg" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto 20px auto;">
+&lt;p>I&amp;rsquo;m a lead research engineer at &lt;a href="https://dynamo.ai/">Dynamo AI (YC 22)&lt;/a> based in Amsterdam (NL) / Gdynia (PL). I work on (synthetic) data flywheels, evaluations, and training (SFT / RL), all focused on creating efficient and aligned custom guardrailing and judge models. What makes it hard (and thus fun) is that the objectives are subjective, under-specified in natural langauge and require iterative human-model alignment.&lt;/p></description></item></channel></rss>
