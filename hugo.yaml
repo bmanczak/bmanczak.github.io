@@ -4,7 +4,7 @@ title: "Blazej Manczak"
 theme: "PaperMod"
 
 # Publish into docs/ for GitHub Pages
-publishDir: "docs"
+publishDir: "public"
 
 # Enable raw HTML in markdown
 markup:

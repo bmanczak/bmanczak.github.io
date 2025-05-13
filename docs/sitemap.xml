@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bmanczak.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-05-12T15:23:52+02:00</lastmod>
   </url><url>
-    <loc>https://bmanczak.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-12T15:23:52+02:00</lastmod>
   </url><url>
-    <loc>https://bmanczak.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://bmanczak.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
