@@ -6,9 +6,9 @@ title: "About"
 
 <img alt="Blazej Manczak" src="/images/profile-photo.jpg" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto 20px auto;">
 
-I'm a lead research engineer at [Dynamo AI (YC 22)](https://dynamo.ai/) based in Amsterdam (NL) / Gdynia (PL). I work on (synthetic) data flywheels, evaluations, and training (SFT / RL), all focused on creating efficient and aligned custom guardrailing and judge models. What makes it hard (and thus fun) is that the objectives are subjective, under-specified in natural langauge and require iterative human-model alignment.
+I'm a lead research engineer at [Dynamo AI (YC 22)](https://dynamo.ai/). I work on (synthetic) data flywheels, evaluations, and training (SFT / RL), all focused on creating efficient and aligned custom guardrailing and judge models. What makes it hard (and thus fun) is that the objectives are subjective, under-specified in natural language and require iterative human-model alignment through extensive evals.
 
-Before joining Dynamo I worked in RL for Combinatorial Optimization and Code Generation teams at Qualcomm AI Research in Amsterdam. I studied Artifical Intelligence at the Univeristy of Amsterdam, specializing in Reinforcement Learning where I did a 9 month intership at [Amsterdam Machine Learning](https://amlab.science.uva.nl/) lab with prof. Herke van Hoof.
+Before joining Dynamo I worked in RL for Combinatorial Optimization and Code Generation teams at Qualcomm AI Research in Amsterdam. I studied Artifical Intelligence at the Univeristy of Amsterdam, specializing in Reinforcement Learning where I spent 9 months at [Amsterdam Machine Learning](https://amlab.science.uva.nl/) lab with prof. Herke van Hoof.
 
 ### Projects I am most proud of:
 
