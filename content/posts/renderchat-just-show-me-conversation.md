@@ -1,6 +1,7 @@
 ---
 title: "renderchat: just show me the conversation"
 date: 2025-10-25
+publishDate: 2025-10-23
 tags: ["coding"]
 draft: false
 ---
