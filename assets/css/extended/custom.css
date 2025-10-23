@@ -1,0 +1,64 @@
+/**
+ * Custom styles for posts section
+ * Clean white design inspired by OpenAI with subtle borders
+ */
+
+/* Force pure white background for the entire page */
+body {
+  background: #ffffff !important;
+}
+
+.main {
+  background: #ffffff !important;
+}
+
+/* Dark mode: use very subtle gray instead of full dark */
+.dark body,
+.dark .main {
+  background: #fafafa !important;
+}
+
+/* Post cards: pure white with subtle border (OpenAI style) */
+.post-entry,
+.first-entry {
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: none !important;
+}
+
+.dark .post-entry,
+.dark .first-entry {
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+/* Subtle hover effect - lift card slightly */
+.post-entry:hover,
+.first-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06) !important;
+  border-color: #d1d5db !important;
+  transition: all 0.2s ease;
+}
+
+/* Popular tags widget background */
+div[style*="background: var(--code-bg)"] {
+  background: #f9fafb !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+.dark div[style*="background: var(--code-bg)"] {
+  background: #f3f4f6 !important;
+}
+
+/* Tag chips styling */
+a[href^="/tags/"] {
+  background: #ffffff !important;
+  border-color: #e5e7eb !important;
+}
+
+a[href^="/tags/"]:hover {
+  background: #f9fafb !important;
+  border-color: #d1d5db !important;
+  transform: translateY(-1px);
+}

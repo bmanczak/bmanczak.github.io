@@ -19,3 +19,25 @@ menu:
       name: "About"
       url: "/about/"
       weight: 10
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
+      weight: 20
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+params:
+  mainSections: ["posts"]
+  ShowReadingTime: false
+  ShowPostNavLinks: true
+  ShowShareButtons: false
+  ShowRssButtonInSectionTermList: false
+
+# Optional, compact summaries on list pages
+summaryLength: 35
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  section: ["HTML", "RSS"]

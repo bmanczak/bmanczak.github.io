@@ -1,0 +1,50 @@
+{{- /* Popular tags widget - shows top 5 tags with post counts */ -}} {{- $tags
+:= .Site.Taxonomies.tags -}} {{- if $tags -}}
+<div
+  style="
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--code-bg);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  "
+>
+  <div
+    style="
+      font-size: 0.85rem;
+      color: var(--secondary);
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 500;
+    "
+  >
+    Popular Topics
+  </div>
+  <div style="display: flex; flex-wrap: wrap; gap: 0.5rem">
+    {{- range first 5 $tags.ByCount -}}
+    <a
+      href="{{ .Page.Permalink }}"
+      style="
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.4rem 0.9rem;
+        background: var(--theme);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: var(--primary);
+        transition: all 0.2s ease;
+      "
+    >
+      <span>{{ .Page.Title }}</span>
+      <span style="font-size: 0.8rem; color: var(--secondary); font-weight: 500"
+        >{{ .Count }}</span
+      >
+    </a>
+    {{- end -}}
+  </div>
+</div>
+{{- end -}}

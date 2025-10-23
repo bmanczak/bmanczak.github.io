@@ -18,4 +18,6 @@ Before joining Dynamo I worked in RL for Combinatorial Optimization and Code Gen
 
 Outside of work, I love endurance sports and science behind achieving peak human perfromance. I swim, bike, run, and like Middle Distance Training (70.3 IM) the most. Have a sub-10 Ironman race under the belt, want to do a sub 9 at some point. I lack time for other sports but I also do enjoy them: despite failing at learning surfing, I am not giving up :)
 
+Sometimes I write about stuff; you can read it here: [/posts/](/posts/).
+
 **Contact:** if you'd like to chat about AI, go for a bike ride or grab coffee send me a DM on X / LinkedIn / Strava.
