@@ -13,7 +13,7 @@ I do! I built myself a tool to make passing whole conversations as context betwe
 
 You just get the conversation share link, type `renderchat <share_link>` in your terminal and webpage with ready to copy past conversation pops up.
 
-You can find it here: [renderchat](https://github.com/rakshit-kumar/renderchat)
+You can find it here: [renderchat](https://github.com/bmanczak/renderchat)
 
 And here's a quick demo:
 
