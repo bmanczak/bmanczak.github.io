@@ -21,3 +21,12 @@ Outside of work, I love endurance sports and science behind achieving peak human
 Sometimes I write about stuff; you can read it here: [/posts/](/posts/).
 
 **Contact:** if you'd like to chat about AI, go for a bike ride or grab coffee send me a DM on X / LinkedIn / Strava.
+
+<hr class="about-updates-sep">
+
+<span id="updates"></span>
+### Updates
+
+<ul class="about-updates">
+  <!-- Add one-liners here, newest first. Example: <li><span class="update-date">2026-01-17</span> — Shipped X.</li> -->
+</ul>

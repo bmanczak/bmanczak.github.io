@@ -19,6 +19,10 @@ menu:
       name: "About"
       url: "/about/"
       weight: 10
+    - identifier: "updates"
+      name: "Updates"
+      url: "/about/#updates"
+      weight: 15
     - identifier: "posts"
       name: "Posts"
       url: "/posts/"

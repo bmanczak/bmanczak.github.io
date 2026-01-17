@@ -46,3 +46,26 @@ a[href^="/tags/"]:hover {
   border-color: var(--border) !important;
   transform: translateY(-1px);
 }
+
+/* About page: updates block */
+.about-updates-sep {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 32px 0;
+  opacity: 0.7;
+}
+
+.about-updates {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-updates li {
+  padding: 6px 0;
+}
+
+.about-updates .update-date {
+  font-size: 0.9em;
+  color: var(--secondary);
+}
