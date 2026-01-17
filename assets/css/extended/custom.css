@@ -69,3 +69,29 @@ a[href^="/tags/"]:hover {
   font-size: 0.9em;
   color: var(--secondary);
 }
+
+.about-updates li p {
+  display: inline;
+  margin: 0;
+}
+
+.about-updates-more {
+  margin-top: 12px;
+}
+
+.about-updates-more summary {
+  cursor: pointer;
+  color: var(--primary);
+  font-weight: 600;
+  list-style: none;
+}
+
+.about-updates-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.about-back-to-top {
+  display: inline-block;
+  margin-top: 16px;
+  font-weight: 600;
+}

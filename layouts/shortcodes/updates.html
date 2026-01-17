@@ -1,0 +1,27 @@
+{{- $all := where .Site.RegularPages "Section" "updates" -}}
+{{- $sorted := sort $all "Date" "desc" -}}
+{{- $latest := first 10 $sorted -}}
+{{- $rest := after 10 $sorted -}}
+
+<ul class="about-updates">
+  {{- range $latest }}
+  <li>
+    <span class="update-date">{{ .Date.Format "January 2006" }}</span>
+    — {{ .Content }}
+  </li>
+  {{- end }}
+</ul>
+
+{{- if gt (len $rest) 0 }}
+<details class="about-updates-more">
+  <summary>Show more</summary>
+  <ul class="about-updates">
+    {{- range $rest }}
+    <li>
+      <span class="update-date">{{ .Date.Format "January 2006" }}</span>
+      — {{ .Content }}
+    </li>
+    {{- end }}
+  </ul>
+</details>
+{{- end }}
