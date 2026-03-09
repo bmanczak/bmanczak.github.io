@@ -1,0 +1,48 @@
+{{- $all := where .Site.RegularPages "Section" "publications" -}} {{- $sorted :=
+sort $all "Date" "desc" -}}
+
+<div class="publications-list" id="pub-list">
+  {{- range $i, $p := $sorted }}
+  <div class="pub-entry{{ if ge $i 5 }} pub-hidden{{ end }}">
+    <a
+      class="pub-title"
+      href="{{ $p.Params.link }}"
+      target="_blank"
+      rel="noopener"
+      >{{ $p.Title }}</a
+    >
+    <div class="pub-authors">
+      {{ replace $p.Params.authors "B. Manczak" "<strong>B. Manczak</strong>" |
+      safeHTML }}
+    </div>
+    <span class="pub-venue">{{ $p.Params.venue }}</span>
+    {{- if $p.Params.github }}
+    <a
+      class="pub-github"
+      href="{{ $p.Params.github }}"
+      target="_blank"
+      rel="noopener"
+      title="Code"
+      ><i class="fab fa-github"></i
+    ></a>
+    {{- end }}
+    <p class="pub-tldr">{{ $p.Content }}</p>
+  </div>
+  {{- end }}
+</div>
+
+{{- if gt (len $sorted) 5 }}
+<button
+  class="publications-toggle"
+  id="pub-toggle"
+  onclick="
+    document
+      .getElementById('pub-list')
+      .classList.toggle('publications-expanded');
+    this.textContent =
+      this.textContent.trim() === 'Show more' ? 'Show less' : 'Show more';
+  "
+>
+  Show more
+</button>
+{{- end }}

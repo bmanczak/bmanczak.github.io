@@ -1,7 +1,6 @@
-{{- $all := where .Site.RegularPages "Section" "updates" -}}
-{{- $sorted := sort $all "Date" "desc" -}}
-{{- $latest := first 10 $sorted -}}
-{{- $rest := after 10 $sorted -}}
+{{- $all := where .Site.RegularPages "Section" "updates" -}} {{- $sorted := sort
+$all "Date" "desc" -}} {{- $latest := first 5 $sorted -}} {{- $rest := after 5
+$sorted -}}
 
 <ul class="about-updates">
   {{- range $latest }}

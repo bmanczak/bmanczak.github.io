@@ -23,6 +23,10 @@ menu:
       name: "Updates"
       url: "/about/#updates"
       weight: 15
+    - identifier: "publications"
+      name: "Publications"
+      url: "/about/#publications"
+      weight: 17
     - identifier: "posts"
       name: "Posts"
       url: "/posts/"
