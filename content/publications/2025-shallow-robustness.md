@@ -2,7 +2,7 @@
 date: "2025-10-14"
 title: "Shallow Robustness, Deep Vulnerabilities: Multi-Turn Evaluation of Medical LLMs"
 authors: "B. Manczak, E. Lin, F. Eiras, J. O'Neill, V. Mugunthan"
-venue: "NeurIPS 2025"
+venue: "NeurIPS 2025 Workshop"
 link: "https://arxiv.org/abs/2510.12255"
 github: "https://github.com/bmanczak/MedQA-MultiTurnRobustness"
 ---

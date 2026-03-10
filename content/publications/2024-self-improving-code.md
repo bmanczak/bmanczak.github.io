@@ -2,7 +2,7 @@
 date: "2024-01-15"
 title: "Towards Self-Improving Language Models for Code Generation"
 authors: "M. Defferrard, C. Rainone, D.W. Zhang, B. Manczak, N. Butt, T. Cohen"
-venue: "ICLR 2024"
+venue: "ICLR 2024 Workshop"
 link: "https://openreview.net/forum?id=SA2zPf03zQ"
 ---
 

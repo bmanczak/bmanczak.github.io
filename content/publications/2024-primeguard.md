@@ -2,7 +2,7 @@
 date: "2024-07-23"
 title: "PrimeGuard: Safe and Helpful LLMs through Tuning-Free Routing"
 authors: "B. Manczak, E. Zemour, E. Lin, V. Mugunthan"
-venue: "ICML 2024"
+venue: "ICML 2024 Workshop"
 link: "https://arxiv.org/abs/2407.16318"
 github: "https://github.com/dynamofl/PrimeGuard"
 ---
